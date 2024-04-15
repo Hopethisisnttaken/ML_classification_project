@@ -40,10 +40,10 @@ The purpose of the EDA is to understand the general outlook of the data while pr
 ### Classification: 
 
 This consisted of several steps:
-1. spliting the data into train, validation and testing set in a 3:1:1 ratio, respectively.
-2. spliting each set into target (is_ultra column) and features (all the other columns)
-3. creating a loop to fit the hyperparameters in the most accurate way
-4. repeat 2 and 3 with each of the different models (decision tree, random forest and logistic regression)
+1. Spliting the data into train, validation and testing set in a 3:1:1 ratio, respectively.
+2. Spliting each set into target (is_ultra column) and features (all the other columns)
+3. Creating a loop to fit the hyperparameters in the most accurate way
+4. Repeat 2 and 3 with each of the different models (decision tree, random forest and logistic regression)
 5. Santiy checking the best fitting model for precision and recall
 
 ### Summary and recommendations:
